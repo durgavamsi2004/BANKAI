@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    overflow:hidden;
+}
+
+.vob{
+    position: fixed;
+    min-width:100%;
+    min-height: 100%;
+    width :auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+
+
+}
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    
+    
+}
+h1{
+    color: ghostwhite;
+    font-family: "Reenie Beanie", cursive;
+  font-weight: 800;
+  font-style: normal;
+  text-shadow:0 10px 1000px red;
+  font-size: 150px;
+  margin: 0;
+
+}
+.pt{
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 560;
+    font-size: 22px;
+    color: whitesmoke;
+    
+   
+}
+button{
+    width:4cm;
+    height: 1.3cm;
+    
+    border-radius:3px ;
+    padding: 0;
+    background: rgba(232, 10, 10, 0.904);
+    border: 0;
+}
+button:hover{
+    background: rgba(248, 248, 255, 0.402);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 800px red;
+}
+.icon {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    justify-content: center;
+    
+    
+  }
+  
+  .icon i {
+    padding: 18px;
+    color:red;
+    border-radius: 50%;
+    
+    font-weight: 400;
+    transition: background-image 1s ease-in-out, color 0.5s ease-in-out;
+   
+
+  }
+  .fa-instagram:hover{
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    color: black;
+    
+  }
+  .fa-threads:hover{
+   background-image:  linear-gradient(45deg, #4e54c8, #8f94fb, #a8a0f9, #c1b6fc, #dbd9fc);
+   color: black; }
+  .fa-facebook:hover{
+    background: linear-gradient(45deg, #1877f2, #3b5998, #8b9dc3, #dfe3e8);
+    color: black;}
+  .fa-snapchat:hover{
+    background: linear-gradient(45deg, #fffc00, #fffc00, white, #fffc00, white);
+    color: black; }
+  .fa-x-twitter:hover{
+    background: linear-gradient(45deg, #1da1f2, #1877f2, #116ea8, #0a5c91);
+    color: black;
+  }
+  .fa-address-card:hover{
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    color: black;
+  }
+  .blu{
+    border-radius: 5px;
+    background: rgba(248, 248, 255, 0.208);
+    backdrop-filter: blur(5px);
+    padding:10px;
+
+  }
+  .top{
+    display: flex;
+    height: 1cm;
+    gap: 50px;
+    padding: 10px;
+    text-align: left;
+    justify-content: right;
+    margin: 10px;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+  }
+  #a{
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 580;
+    font-size: 25px;
+    margin: 0;
+    color:ghostwhite;
+    
+    transition: background-color 0.3s ease, filter 0.3s ease;
+   
+  }
+
+ 
+#a:hover{
+  color: red;
+  filter: blur(0);
+}
+.top:hover #a:not(:hover)
+{
+  filter:blur(5px);
+}
+a{
+  text-decoration: none;
+}
+#muteButton{
+  width: 2cm;
+  height: 1.5cm;
+  background: rgba(221, 10, 10, 0.292);
+    backdrop-filter: blur(5px);
+}
