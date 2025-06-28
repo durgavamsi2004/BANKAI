@@ -3,7 +3,7 @@
 Welcome to **My Bankai Site** — a tribute to the powerful and awe-inspiring *Bankai* transformations from the anime series **Bleach**.  
 This project presents a sleek, informative, and anime-inspired web page that highlights the top 5 most iconic Bankai releases, each on its own dedicated page.
 
-🌐 **Live Site**: [Visit Here](https://durgavamsi2004.github.io/mybankaisite/)
+🌐 **Live Site**: [Visit Here](https://durgavamsi2004.github.io/BANKAI/)
 
 ---
 
